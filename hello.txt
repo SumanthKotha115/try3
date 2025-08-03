@@ -1,2 +1,7 @@
 Hello! This is my first Git project.
 This is my second version!
+
+
+Hello! This is my updated Git practice file.
+Learning Git is fun and useful!
+- Sumanth Kotha
