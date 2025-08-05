@@ -1,0 +1,24 @@
+git config --global user.name "Your Full Name"
+git config --global user.email "your@email.com"
+
+PS C:\Users\suman\OneDrive\Desktop\git1> git init 
+Reinitialized existing Git repository in C:/Users/suman/OneDrive/Desktop/git1/.git/
+PS C:\Users\suman\OneDrive\Desktop\git1> git add .
+PS C:\Users\suman\OneDrive\Desktop\git1> git commit -m "Initial commit"
+[main 329f72c] Initial commit
+ 3 files changed, 3 insertions(+)
+PS C:\Users\suman\OneDrive\Desktop\git1> git remote add origin https://github.com/SumanthKotha115/try2.git
+error: remote origin already exists.
+PS C:\Users\suman\OneDrive\Desktop\git1> git remote set-url origin https://github.com/SumanthKotha115/try2.git
+PS C:\Users\suman\OneDrive\Desktop\git1> git push -u origin main
+Enumerating objects: 28, done.
+Counting objects: 100% (28/28), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (28/28), 3.35 KiB | 343.00 KiB/s, done.
+Total 28 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/SumanthKotha115/try2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\suman\OneDrive\Desktop\git1> 
